@@ -74,3 +74,9 @@ Things to be GOD at :
             1. Mysql 
         2. NoSQL 
             1. Mongo 
+    7. Deployment 
+        1. Docker 
+        2. CI/CD 
+        3. Kubernetes
+
+    
