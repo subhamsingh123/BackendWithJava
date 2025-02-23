@@ -14,7 +14,7 @@ Things to be GOD at :
         6. Git pull 
         7. Git log 
     3. Internal 
-        1. .git objects
+        1. Git objects
     4. Config
         1. Git config —get user.name
         2. Git config —add —global user.email “test@test.com”
