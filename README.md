@@ -81,6 +81,6 @@ Things to be GOD at :
     8. Cloud Computing
         1. EC2
         2. Serverless Lambda & Framework
-        3. Aurora DB
+        3. Aurora DB 
 
     
