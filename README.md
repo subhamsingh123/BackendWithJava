@@ -78,5 +78,9 @@ Things to be GOD at :
         1. Docker 
         2. CI/CD 
         3. Kubernetes
+    8. Cloud Computing
+        1. EC2
+        2. Serverless Lambda & Framework
+        3. Aurora DB 
 
     
