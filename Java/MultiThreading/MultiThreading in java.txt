@@ -1,0 +1,5 @@
+Questions You should Know Answer of:
+1) What is Single Core System. 
+2) What is the Difference between Concurrency and MultiThreading. 
+3) Threads Vs Runnable
+4) ExecutorService
