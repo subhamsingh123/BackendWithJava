@@ -1,5 +1,4 @@
 package Java.Strings;
-import java.util.Set;
 
 public class StringPoolPrinter {
     public static void main(String[] args) {
