@@ -1,0 +1,105 @@
+Beginner (1-30)
+1. What is Java Stream API, and how does it differ from traditional loops?
+2. How do you create a Stream from a List in Java?
+3. What are the different ways to obtain a Stream in Java?
+4. Explain the difference between sequential and parallel streams.
+5. What is the difference between Collection.stream() and Collection.parallelStream()?
+6. What is the purpose of the filter() method in Stream API?
+7. How does the map() function work in Java Streams?
+8. How do you convert a Stream back to a List?
+9. What does the forEach() method do in Java Streams?
+10. What is the difference between forEach() and forEachOrdered()?
+11. What is the use of collect(Collectors.toList())?
+12. How do you convert a Stream to an array?
+13. What is a terminal operation in Java Streams?
+14. What is an intermediate operation in Java Streams?
+15. Explain the difference between map() and flatMap().
+16. How do you remove duplicates from a Stream?
+17. How do you sort a Stream in natural order?
+18. How do you sort a Stream in reverse order?
+19. How do you check if a Stream contains a specific element?
+20. How do you count the number of elements in a Stream?
+21. What does the anyMatch() method do?
+22. What is the difference between anyMatch(), allMatch(), and noneMatch()?
+23. What is the purpose of the reduce() method in Java Streams?
+24. How do you find the maximum and minimum element in a Stream?
+25. How do you generate an infinite Stream?
+26. What is the purpose of limit() and skip() methods?
+27. What does the distinct() method do in a Stream?
+28. How do you concatenate two Streams?
+29. Can you reuse a Stream after calling a terminal operation? Why?
+30. How do you create an empty Stream?
+
+Intermediate (31-70)
+1. How do you create a Stream from an array?
+2. How do you convert a Stream of Strings to a single String using Collectors.joining()?
+3. How do you partition elements in a Stream into two groups?
+4. How does groupingBy() work in Java Streams?
+5. What is the difference between groupingBy() and partitioningBy()?
+6. How do you merge multiple lists into a single list using Streams?
+7. How can you filter a Stream of objects based on multiple conditions?
+8. What happens when you use filter() before map() in a Stream?
+9. What happens when you use map() before filter() in a Stream?
+10. How do you handle exceptions inside a Stream pipeline?
+11. How do you collect the results of a Stream into a Map?
+12. How do you find the first element of a Stream?
+13. How do you remove null values from a Stream?
+14. What does findFirst() return when the Stream is empty?
+15. What does findAny() do in a parallel stream?
+16. How does parallel Stream affect performance?
+17. How do you convert a Stream of Integer to int[]?
+18. How do you sum a Stream of integers?
+19. How do you generate a Stream of random numbers?
+20. How do you convert a Stream of characters to a String?
+21. What are Collectors.toSet() and Collectors.toMap() used for?
+22. How do you create a Stream from a file?
+23. What does Files.lines(Path) return?
+24. How do you count the number of words in a text file using Streams?
+25. How do you handle checked exceptions inside a Stream pipeline?
+26. How do you convert a Stream of Optional objects to a List of non-null values?
+27. What is the purpose of Collectors.mapping()?
+28. What is Collectors.reducing() used for?
+29. How do you implement a custom collector?
+30. How does the sorted() method work in a Stream?
+31. What is the difference between limit() and skip()?
+32. What happens when limit(0) is used on a Stream?
+33. How do you create a Stream that repeats an element indefinitely?
+34. How do you use takeWhile() and dropWhile() in Java 9?
+35. What is the difference between generate() and iterate() methods?
+36. What is the use of toUnmodifiableList() in Java 10?
+37. How do you convert a primitive Stream (IntStream) to an Object Stream (Stream<Integer>)?
+38. What does peek() do in a Stream pipeline?
+39. Why should peek() not be used for modifying elements?
+40. How do you merge two sorted Streams into a single sorted Stream?
+
+Advanced (71-100)
+1. What are the performance implications of using Streams versus loops?
+2. How do you parallelize a Stream processing pipeline?
+3. When should you use parallel Streams, and when should you avoid them?
+4. What are ConcurrentMap and Collectors.toConcurrentMap()?
+5. How do you optimize a parallel Stream for large data sets?
+6. What are the common pitfalls of using parallel Streams?
+7. How does the reduce() method behave in a parallel Stream?
+8. How do you convert a Stream to a Deque?
+9. How do you create a Stream from a database result set?
+10. What is the role of Collectors.collectingAndThen()?
+11. How do you find the most frequent element in a Stream?
+12. How do you find the second-largest number in a Stream?
+13. How do you compute moving averages using Streams?
+14. How do you implement a paginated result using Streams?
+15. Can you sort a Stream based on multiple conditions?
+16. How do you shuffle elements in a Stream?
+17. How do you create a Stream of dates between two dates?
+18. How do you measure execution time for a Stream operation?
+19. How do you count the frequency of words in a String using Streams?
+20. What is the impact of autoboxing in Streams?
+21. How do you convert a nested list into a flattened Stream?
+22. How do you generate Fibonacci numbers using Streams?
+23. How do you implement a sliding window in Streams?
+24. What happens if you call collect() multiple times on the same Stream?
+25. How do you create a Stream of Pairs (Tuples) in Java?
+26. How do you perform lazy loading using Streams?
+27. What is ForkJoinPool and how does it work with parallel Streams?
+28. Can you apply memoization in Stream pipelines?
+29. How do you transform an infinite Stream into a finite Stream?
+30. How do you debug Stream operations effectively?

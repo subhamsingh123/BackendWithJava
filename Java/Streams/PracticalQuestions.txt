@@ -1,0 +1,105 @@
+Beginner (1-30)
+1. Write a Java program to convert a List<String> into a List<Integer> representing the length of each string.
+2. Create a Stream from an array of integers and print each element.
+3. Filter out all even numbers from a List<Integer> using Stream API.
+4. Convert a List<String> to uppercase using Streams.
+5. Sort a List<Integer> in ascending order using Streams.
+6. Sort a List<String> in reverse order using Streams.
+7. Remove duplicate elements from a List<Integer> using Streams.
+8. Find the first element of a Stream from a given list.
+9. Find the sum of all elements in a List<Integer> using Streams.
+10. Count the number of elements greater than 50 in a List<Integer>.
+11. Convert a Stream<String> to an array of Strings.
+12. Check if a List<String> contains a word that starts with "A".
+13. Find the longest string in a List<String> using Streams.
+14. Generate a Stream of the first 10 natural numbers and print them.
+15. Generate an infinite Stream of even numbers and limit it to 10 elements.
+16. Concatenate two List<String> into a single List using Streams.
+17. Convert a List<String> to a single comma-separated String.
+18. Find the maximum number in a List<Integer> using Streams.
+19. Find the minimum number in a List<Integer> using Streams.
+20. Group a List<String> by their length using Streams.
+21. Create a Map from a List<String> where the key is the string and the value is its length.
+22. Count the occurrences of each character in a given string using Streams.
+23. Remove all null values from a List<String> using Streams.
+24. Convert a List<Double> to List<Integer> by rounding the values.
+25. Generate a Stream of random numbers and collect the first 5.
+26. Given a list of names, find names that contain more than 5 characters.
+27. Check if all numbers in a List<Integer> are positive using Streams.
+28. Convert a List<String> into a Set<String> using Streams.
+29. Filter out empty strings from a List<String>.
+30. Find the second-highest number in a List<Integer> using Streams.
+
+Intermediate (31-70)
+1. Convert a nested list List<List<Integer>> into a flattened list using Streams.
+2. Find the top 3 largest numbers from a List<Integer> using Streams.
+3. Sort a list of Person objects by age using Streams.
+4. Find the average of all numbers in a List<Integer> using Streams.
+5. Convert a List<Integer> into a Map where key is number and value is its square.
+6. Find the most frequently occurring word in a List<String>.
+7. Read a file and count the number of words using Streams.
+8. Find the distinct elements from two different lists using Streams.
+9. Remove duplicate characters from a string using Streams.
+10. Convert a List<Integer> to a Map<Integer, Boolean> where Boolean represents whether the number is even.
+11. Find the longest word in a sentence using Streams.
+12. Convert a Map<Integer, String> to a List<String> containing values only.
+13. Convert a List<Integer> into a comma-separated string of numbers.
+14. Find all palindromes in a List<String> using Streams.
+15. Create a Stream that generates a Fibonacci sequence up to 10 terms.
+16. Find common elements between two lists using Streams.
+17. Implement a function to return the sum of squares of even numbers in a List<Integer>.
+18. Filter a list of transactions to find only those above $5000.
+19. Count the number of occurrences of each word in a paragraph using Streams.
+20. Convert a list of strings into a Map where keys are first letters and values are lists of words starting with that letter.
+21. Find employees who have salaries above $50,000 from a List<Employee>.
+22. Remove all numbers greater than 100 from a list using Streams.
+23. Implement a custom comparator in a sorted() Stream operation.
+24. Find the most repeated character in a string using Streams.
+25. Count the number of vowels in a given string using Streams.
+26. Generate a list of 10 random unique integers using Streams.
+27. Merge two sorted lists into a single sorted list using Streams.
+28. Implement a pagination system using Streams (skip and limit).
+29. Find words of even length in a List<String>.
+30. Generate an infinite Stream of prime numbers and take the first 10.
+31. Implement a function that calculates the moving average of a list of numbers.
+32. Extract all email addresses from a text file using Streams.
+33. Convert an IntStream to a List<Integer>.
+34. Convert a List<Employee> into a Map with employee name as key and salary as value.
+35. Partition a List<Integer> into two groups: even and odd numbers.
+36. Compute the factorial of a number using Streams.
+37. Find employees whose names start with 'J' and sort them by salary.
+38. Create a list of 10 random UUIDs using Streams.
+39. Calculate the product of all elements in a List<Integer> using reduce().
+40. Extract all unique words from a paragraph using Streams.
+
+Advanced (71-100)
+1. Implement a parallel Stream to process a large dataset.
+2. Use parallel Streams to sum up large numbers efficiently.
+3. Measure execution time of a Stream operation for performance analysis.
+4. Convert a Stream of objects to a Stream of keys and values separately.
+5. Find the most expensive product in a List<Product>.
+6. Use a parallel Stream to count word occurrences in a large file.
+7. Find the employee with the highest salary from a list using Streams.
+8. Merge two Map<Integer, String> objects using Streams.
+9. Implement a custom collector to find the mode (most frequent element) of a list.
+10. Implement a function that returns a paginated list from a given list.
+11. Compute a sliding window sum using Streams.
+12. Convert a Stream of timestamps to human-readable date formats.
+13. Use Streams to check if a Sudoku board is valid.
+14. Find the longest increasing subsequence in a List<Integer>.
+15. Implement a dynamic word search from a dictionary using Streams.
+16. Sort a list of objects based on multiple fields using Streams.
+17. Count the frequency of characters in a given text file.
+18. Compute the dot product of two lists using Streams.
+19. Implement a function to find the longest common prefix in a list of words.
+20. Convert a nested JSON structure into a flat list using Streams.
+21. Find cycles in a graph representation using Streams.
+22. Implement a Stream-based method to detect duplicate elements in a large dataset.
+23. Use Streams to transform an SQL result set into Java objects.
+24. Implement memoization for expensive Stream computations.
+25. Use Streams to extract hashtags from a collection of tweets.
+26. Find the best stock to buy based on historical data using Streams.
+27. Process large CSV files using Streams efficiently.
+28. Parallelize an expensive computation using ForkJoinPool with Streams.
+29. Implement a Stream pipeline that validates user input against multiple criteria.
+30. Use Streams to dynamically filter a large dataset based on user preferences.
