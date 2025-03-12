@@ -4,3 +4,6 @@ Questions You should Know Answer of:
 3) What are lambda expression
 4) What are Date and Time API. 
 5) When to use Lambda expression and when to use 
+6) Preidcate , Function, Consumer, Supplier
+7) Unary Operator 
+8) Binary Operatoir

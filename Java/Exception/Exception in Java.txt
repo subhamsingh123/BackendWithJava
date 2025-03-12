@@ -1,0 +1,3 @@
+Questions You should Know Answer of:
+1) Checked vs unchecked Exception.
+2) Built-in vs User-Defined exception. 
