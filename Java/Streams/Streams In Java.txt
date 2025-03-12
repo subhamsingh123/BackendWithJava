@@ -1,0 +1,9 @@
+Questions You should Know Answer of:
+1) Why was Streams were intorduced : Readability, concise code, minimal code functional programming
+2) What are date and time API. 
+3) What are lambda expression
+4) What are Date and Time API. 
+5) When to use Lambda expression and when to use 
+6) Preidcate , Function, Consumer, Supplier
+7) Unary Operator 
+8) Binary Operatoir

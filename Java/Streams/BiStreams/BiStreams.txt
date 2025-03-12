@@ -1,0 +1,3 @@
+BiPredicate, BiFunctions, BiConsumer
+
+There is no concept like BiSupplier
