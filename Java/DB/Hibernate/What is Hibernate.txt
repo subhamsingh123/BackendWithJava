@@ -1,0 +1,7 @@
+Questions: 
+1) Why hibernate was introduced.
+2) What is ORM.
+3) What are different ORM tools.
+4) What is session and session Factory in hibernate.
+    Session factory to specify url, driver and other configuration in format of XML etc.
+    session to persist obeject in DB. so we can use mutliple functions like get and save
