@@ -1,0 +1,81 @@
+Key Concepts of Kafka:
+
+1) Producer
+2) Consumer
+3) Broker
+4) Cluster
+5) Topic 
+6) Partition 
+7) Offset 
+8) Consumer Groups 
+9) Zookeper 
+
+------------------------------------------------------------------------------------------------
+
+Kafka Partition Limits :
+There are no hard limits on the number of partitions in Kafka clusters. But here are a few general rules:
+
+maximum 4000 partitions per broker (in total; distributed over many topics)
+maximum 200,000 partitions per Kafka cluster (in total; distributed over many topics)
+resulting in a maximum of 50 brokers per Kafka cluster
+
+
+--------------------------------------------------------------------------------
+What is the relation between available brokers and replication factors
+ChatGPT said:
+The replication factor in Kafka determines how many copies of each partition exist across different brokers. The relationship between available brokers and the replication factor is crucial for fault tolerance and reliability. Here’s how they relate:
+
+Replication Factor Cannot Exceed Available Brokers
+
+The replication factor must be less than or equal to the number of available brokers.
+Example: If you have 3 brokers, the maximum replication factor you can set is 3.
+Higher Replication Factor Improves Fault Tolerance
+
+A replication factor of 1 means no redundancy—if the broker hosting the partition fails, data is lost.
+A replication factor of 3 with 3 brokers ensures that even if one broker fails, data is still available on the remaining two.
+Leader and Followers Across Brokers
+
+One broker acts as the leader for each partition, while others act as followers (if replication factor > 1).
+Followers replicate data from the leader to ensure redundancy.
+Broker Failures and Partition Availability
+
+If the replication factor is too high relative to the number of brokers, losing multiple brokers might cause unavailability issues.
+Example: If you have 3 brokers and a replication factor of 3, losing 2 brokers means the partition is unavailable.
+Best Practices:
+Keep replication factor = 3 (common practice for production setups).
+Have at least as many brokers as the replication factor to distribute partitions efficiently.
+Monitor broker health and replication lag to avoid inconsistencies.
+
+
+Summary of Workflow
+Producers send data to the leader partition on a broker.
+The leader replicates data to follower partitions on other brokers (based on replication factor).
+Consumers read data from the leader unless configured for follower fetching.
+If a broker with the leader partition fails, Kafka elects a new leader from the followers.
+
+
+------------------------------------------------------------------------------------------------
+Questions : 
+1) Consumer vs Consumer Groups.
+2) What is consumer reblancing
+3) What is Parition Count 
+4) What is replication factor.
+5) can we control in which partition we want to send messages
+    yes.
+6)can a consumer read from a specific consumer.
+    yes.
+*) can we have replication factor more than the brokers.
+    No 
+
+7) if you mutliple Parition in which partition the produced message will go.
+    it will follow round roubin priniciple 
+8) What is avro Schema, and what is schema registry. 
+9) what is follower fetching in Kafka  
+    In Apache Kafka, follower fetching allows consumers to fetch data from the nearest replica (follower) of a topic partition, rather than always relying on the leader,
+    which can reduce network latency and costs, especially in multi-region deployments. 
+
+
+
+
+
+
