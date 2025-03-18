@@ -5,3 +5,36 @@ Questions:
 4) What is session and session Factory in hibernate.
     Session factory to specify url, driver and other configuration in format of XML etc.
     session to persist obeject in DB. so we can use mutliple functions like get and save
+5) What are transactions in java. 
+6) what are different properties in the CFG xml file. 
+7) what are hibernate relations. onetomany, onetoone and manytomany annotation 
+8) Mappedby property in relation
+9) What does fetching Type mean, Explain Eager and Lazy and when we use them. 
+10) what is hibernate cache.
+11) what is first level cache.
+    caching in the same session only.
+12) what is second Level Cache. 
+    caching in across sessions. 
+13) What are cacheConcurrency Strategies. 
+    Read_Only, None, READ_WRITE, NONSTRICT_ReadWrite
+14) What is HQL. what are its advantages
+15) what is native SQL in hibernate 
+    it enables to use SQL in Hibernate HQL. 
+16) What are different states in hibernate 
+    Transient , Persistent, Detached, Removed. 
+17) what is Detach Function in hibernate. 
+18) Delete and remove method in Hibernate. 
+19) Get vs Load in Hibernate.
+    Performance difference, Get will do a db query everytime and give you the object, Get will give you null for no object found. Load will do a DB call only if the fecehd object is beign used. 
+    and returns a proxy object and it will give you no Object found error if no object found. 
+
+Advanced Questions 
+1) what is default value of hibernate.hbm2ddl.auto
+2) what are some examples of second level cache. 
+3) Can we use a select keyword with session.createQuery what changes it will perform.
+4) what is AddEntities in sqlQuery.
+5) What is setResultTransformer.
+6) Save vs Persist in Hibernate
+
+
+
