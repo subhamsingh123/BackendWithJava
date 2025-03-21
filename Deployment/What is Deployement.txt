@@ -1,0 +1,4 @@
+Questions on Deployment : 
+
+1) What is Blue Green Deployment?
+
