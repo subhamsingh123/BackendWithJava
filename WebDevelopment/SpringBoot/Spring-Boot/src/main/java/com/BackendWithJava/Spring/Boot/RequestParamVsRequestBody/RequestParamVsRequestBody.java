@@ -1,10 +1,10 @@
-package com.BackendWithJava.Spring.Boot.RequestParamVsResponseBody;
+package com.BackendWithJava.Spring.Boot.RequestParamVsRequestBody;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class RequestBodyVsResponseBody {
+public class RequestParamVsRequestBody {
 
     @GetMapping("/getUsingRequestBody")
     public void getuUsingRequestBody(){
