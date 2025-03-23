@@ -1,0 +1,52 @@
+[1,1,1,1,2,2,2,2,2,3]
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ * int val;
+ * ListNode next;
+ * ListNode() {}
+ * ListNode(int val) { this.val = val; }
+ * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public ListNode deleteDuplicates(ListNode head) {
+        ListNode prevPtr = head;
+        if (head == null || head.next == null)
+            return head;
+        while (head != null && head.next != null && head.next.val == head.val) {
+            int temp = head.val;
+            while (head != null && head.val == temp) {
+                prevPtr = head;
+                head = head.next;
+            }
+             prevPtr = head;
+            if (head!= null){
+            //     prevPtr = head;
+                head = head.next;
+             }
+            // System.out.println(prevPtr.val + " : "+ head.val );
+    
+        }
+        ListNode ret = prevPtr;
+
+        while (head != null && head.next != null) {
+
+            System.out.println(head.val + " " + head.next.val);
+            if (head.val == head.next.val) {
+                int temp = head.val;
+                while (head.val == temp) {
+                    head = head.next;
+                }
+                prevPtr.next = head;
+
+            } else {
+                prevPtr = head;
+                head = head.next;
+            }
+
+        }
+        return ret;
+
+    }
+}
