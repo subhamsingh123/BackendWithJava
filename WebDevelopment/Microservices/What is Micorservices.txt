@@ -1,52 +1,27 @@
-[1,1,1,1,2,2,2,2,2,3]
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- * int val;
- * ListNode next;
- * ListNode() {}
- * ListNode(int val) { this.val = val; }
- * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
-class Solution {
-    public ListNode deleteDuplicates(ListNode head) {
-        ListNode prevPtr = head;
-        if (head == null || head.next == null)
-            return head;
-        while (head != null && head.next != null && head.next.val == head.val) {
-            int temp = head.val;
-            while (head != null && head.val == temp) {
-                prevPtr = head;
-                head = head.next;
-            }
-             prevPtr = head;
-            if (head!= null){
-            //     prevPtr = head;
-                head = head.next;
-             }
-            // System.out.println(prevPtr.val + " : "+ head.val );
-    
-        }
-        ListNode ret = prevPtr;
+Microservices Routing Patterns:
+    1) Service Discovery
+    2) Service Routing
 
-        while (head != null && head.next != null) {
+Microservices Resiliency Patterns:
+    1) client Side Load Balancing
+    2) Circutit Breaker patterns
+    3) Fallback Patterns
+    4) Bulkhead Patterns
 
-            System.out.println(head.val + " " + head.next.val);
-            if (head.val == head.next.val) {
-                int temp = head.val;
-                while (head.val == temp) {
-                    head = head.next;
-                }
-                prevPtr.next = head;
+Microservices Security Patterns:
+    1) Authentication
+    2) Authorization
+    3) Credential Management and Propogation
 
-            } else {
-                prevPtr = head;
-                head = head.next;
-            }
+Microservices Logging and Tracing Patterns:
+    1) log correlation
+    2) log aggregation
+    3) microservice Tracing
 
-        }
-        return ret;
+Microservices Build/Deployment Patterns:
+    1) Build and Deployment pipeline
+    2) Infrastructre as Code 
+    3) Immutatble serers 
+    4) Phoenix servers 
 
-    }
-}
+
