@@ -1,0 +1,3 @@
+Things to Ask once given a Problem Statement :
+1) Daily Active Users.
+2) Regions 
