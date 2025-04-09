@@ -1,0 +1,9 @@
+1) Multi Regions Support
+2) Type of DB SQL or NoSQL
+3) CAP Theorem
+4) Caching
+5) Sharding
+6) resilience 
+7) backup
+8) logging and Monitoring
+9) security
